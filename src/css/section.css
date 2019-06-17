@@ -1,0 +1,9 @@
+.section {
+    pointer-events: none;
+    display: none;
+}
+
+.section.is-shown {
+    pointer-events: auto;
+    display: block;
+}

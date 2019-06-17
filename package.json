@@ -1,0 +1,17 @@
+{
+    "name": "eledict",
+    "version": "1.0.0",
+    "description": "Unofficial youdao dictionary client",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "electron .",
+      "pack": "electron-builder"
+    },
+    "author": "rekols",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^3.0.2",
+      "electron-settings": "^3.0.7"
+    }
+  }
+  
