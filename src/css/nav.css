@@ -1,14 +1,12 @@
 .nav-item {
     margin: 0;
     padding: 0;
-    background: #F3F3F3;
-    width: 200px;
+    background: #f2f2f1;
+    width: 150px;
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    border-right: 1px solid #D9D9D9;
     user-select: none;
-    float: left;
+    position: fixed;
+    top: 33px;
 }
 
 .nav-button {
@@ -25,14 +23,12 @@
     outline: none;
 }
 
-/* .nav-button:hover,
+.nav-button:hover,
 .nav-button:focus:not(.is-selected) {
-    background-color: #ED8181;
-    color: #FFFFFF;
-} */
+    color: #d20a0a;
+}
 
 .nav-button.is-selected {
-    background-color: #EBACAC;
-    border-right: 3px solid #EB6A6A;
-    color: #FFFFFF;
+    background-color: #f1e7e6;
+    color: #d20a0a;
 }

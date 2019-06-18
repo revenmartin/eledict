@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="css/app.css"/>
         <link rel="stylesheet" type="text/css" href="css/nav.css"/>
         <link rel="stylesheet" type="text/css" href="css/section.css"/>
+        <link rel="stylesheet" type="text/css" href="css/home.css"/>
         <link rel="import" href="pages/homepage.html"/>
         <link rel="import" href="pages/translationpage.html"/>
         <link rel="import" href="pages/aboutpage.html"/>
@@ -35,20 +36,19 @@
             </div>
         </header>
 
-        <div id="main">
-            <div class="nav-item">
-                <button type="button" id="button-home" data-section="home" class="nav-button">查词</button>
-                <button type="button" id="button-translation" data-section="translation" class="nav-button">翻译</button>
-                <button type="button" id="button-about" data-section="about" class="nav-button">关于</button>
-            </div>
-
-            <main class="content js-content"></main>
+        <div class="nav-item">
+            <button type="button" id="button-home" data-section="home" class="nav-button">查词</button>
+            <button type="button" id="button-translation" data-section="translation" class="nav-button">翻译</button>
+            <button type="button" id="button-about" data-section="about" class="nav-button">关于</button>
         </div>
+
+        <div class="content js-content"></div>
 
         <script>
             require('./js/renderer.js')
             require('./js/imports.js')
             require('./js/nav.js')
+            require('./js/api.js')
         </script>
     </body>
 </html>

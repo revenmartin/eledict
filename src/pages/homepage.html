@@ -1,5 +1,25 @@
 <template class="task-template">
-    <section id="home-section" class="section js-section">
-        home
-    </section>
+    <div id="home-section" class="section js-section">
+        <div class="querybar">
+            <input type="text" id="querybox" placeholder="请输入您要查询的单词..."/>
+            <button type="button" id="querybutton">查询</button>
+        </div>
+
+        <div id="dailybar">
+            <p id="dailytitle"></p>
+            <p id="dailysummary"></p>
+            <img id="dailyimage"></img>
+        </div>
+
+        <div id="dictpage">
+            <h2 id="word">World</h2>
+
+            <div class="pronbar">
+                <span id="ukpron"></span>
+                <span id="uspron"></span>
+            </div>
+
+            <p id="basic"></p>
+        </div>
+    </div>
 </template>

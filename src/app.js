@@ -8,10 +8,10 @@ let window = null
 function createWindow() {
   window = new BrowserWindow({
     // Set the initial size.
-    width: 800,
-    height: 550,
-    minWidth: 800,
-    minHeight: 550,
+    width: 700,
+    height: 480,
+    minWidth: 700,
+    minHeight: 490,
     // Set the title bar style
     titleBarStyle: 'hiddenInset',
     // Set the background color to white

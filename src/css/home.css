@@ -1,0 +1,56 @@
+.querybar {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#querybox {
+    height: 33px;
+    width: calc(100% - 99px - 5px);
+    border: none;
+    background-color: #f7f8fa;
+    outline: none;
+}
+
+#querybutton {
+    height: 33px;
+    width: 99px;
+    background: #f23a3a;
+    color: #FFFFFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+#querybutton:hover {
+    background-color: rgb(247, 84, 84);
+}
+
+#querybutton:active {
+    background-color: rgba(247, 84, 84, 0.8);
+}
+
+#dailyimage {
+    height: 300px;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+#dailybar {
+    display: none;
+    position: relative;
+    margin-top: 30px;
+}
+
+#dailybar.is-shown {
+    display: block;
+}
+
+#dictpage {
+    display: none;
+    margin-top: 20px;
+}
+
+#dictpage.is-shown {
+    display: block;
+}

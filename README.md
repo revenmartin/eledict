@@ -1,6 +1,6 @@
 # eledict
 
-Unofficial youdao dictionary client
+Unofficial youdao dictionary client based on electron.
 
 ## Build
 
