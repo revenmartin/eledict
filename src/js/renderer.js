@@ -63,7 +63,7 @@ const remote = require('electron').remote;
                 maxButton.style.display = "flex";
 
                 // Restore window border style.
-                body.style.border = "1px solid #48545c";
+                body.style.border = "1px solid #999999";
                 titlebar.style.top = "1px";
                 titlebar.style.width = "calc(100% - 2px)";
             }

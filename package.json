@@ -12,6 +12,10 @@
     "devDependencies": {
       "electron": "^3.0.2",
       "electron-settings": "^3.0.7"
+    },
+    "dependencies": {
+      "electron": "^3.0.2",
+      "electron-settings": "^3.0.7"
     }
   }
   
