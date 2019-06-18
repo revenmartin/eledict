@@ -3,7 +3,7 @@
     padding: 0;
     background: #f2f2f1;
     width: 150px;
-    height: 100%;
+    height: calc(100% - 2px - 33px);
     user-select: none;
     position: fixed;
     top: 33px;
