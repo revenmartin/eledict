@@ -2,7 +2,7 @@
 
 Unofficial youdao dictionary client based on electron.
 
-![](https://github.com/rekols/eledict/blob/master/screenshots/20190618200634ad.png)
+![](https://github.com/rekols/eledict/blob/master/screenshots/20190618200634.png)
 
 ## Build
 
