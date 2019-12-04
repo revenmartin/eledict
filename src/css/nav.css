@@ -3,10 +3,10 @@
     padding: 0;
     background: #f2f2f1;
     width: 150px;
-    height: calc(100% - 2px - 33px);
+    height: calc(100% - 2px - 41px);
     user-select: none;
     position: fixed;
-    top: 33px;
+    top: 41px;
 }
 
 .nav-button {
