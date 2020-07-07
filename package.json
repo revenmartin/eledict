@@ -10,11 +10,11 @@
     "author": "rekols",
     "license": "MIT",
     "devDependencies": {
-      "electron": "^3.0.2",
+      "electron": "^9.1.0",
       "electron-settings": "^3.0.7"
     },
     "dependencies": {
-      "electron": "^3.0.2",
+      "electron": "^9.1.0",
       "electron-settings": "^3.0.7"
     }
   }
